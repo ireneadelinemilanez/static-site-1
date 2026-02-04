@@ -10,8 +10,8 @@
 :root {
   /* NYCity News Service Colors */
   --color-cuny-blue: #0033A1;     /* CUNY Blue (PMS 286) */
-  --color-accent: #0033A1;        /* CUNY Blue as accent */
-  --color-accent-hover: #002880;
+  --color-accent: #195a9b;        /* CUNY Blue as accent */
+  --color-accent-hover: #0033A1;
   --color-dark: #1a1a1a;
   --color-text: #333333;
   --color-white: #ffffff;

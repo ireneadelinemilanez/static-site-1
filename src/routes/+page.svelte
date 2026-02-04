@@ -9,13 +9,13 @@
   import RelatedLinks from '$lib/components/RelatedLinks.svelte';
 
   // Article metadata
-  let headline = 'Become a force for good. Join our next class.';
-  let byline = 'NYCity News Service';
-  let pubDate = '2026-01-31';
+  let headline = 'Restaurant Costs are Still Sky-High';
+  let byline = 'Irene Adeline Milanez';
+  let pubDate = '2026-02-04';
 
   // Related stories
   const relatedStories = [
-    { headline: 'How America\'s top news organizations escape rigid publishing systems to design beautiful data-driven stories on deadline.', href: 'https://palewi.re/docs/coding-the-news/' },
+    { headline: 'What other kinds of sites will Irene make?', href: 'https://palewi.re/docs/coding-the-news/' },
     { headline: 'How to install, configure and use Visual Studio Code, GitHub and Copilot', href: 'https://palewi.re/docs/coding-the-news/scripts/week-1/' },
   ];
 </script>
@@ -38,48 +38,46 @@
 
   <!-- Lead Image: CUNY Journalism School building -->
   <ImageWithCaption
-    src="/example-photo.gif"
+    src="/ingredients.webp"
     alt="The Craig Newmark Graduate School of Journalism is at 219 West 40th Street in Midtown Manhattan."
-    caption="The Craig Newmark Graduate School of Journalism is at 219 West 40th Street in Midtown Manhattan."
-    credit="Craig Newmark Graduate School of Journalism"
+    caption="Cafés and bars nationwide struggle with the high cost of ingredients."
+    credit="Irene Adeline Milanez"
   />
 
   <!-- Article Body: The main story text with proper typography -->
   <ArticleBody>
     <p>
-      At the Craig Newmark Graduate School of Journalism at the City University of New York, change is in our DNA. That comes of being born in 2006, as the digital revolution was transforming our profession in ways none of us could have imagined.
+      At Bati Ethiopian Kitchen in Brooklyn’s Bedford-Stuyvesant neighborhood, the menu centers injera, a large, sour, spongy flatbread, served with a variety of wat, stews made from meat, vegetables, and legumes.
     </p>
 
     <p>
-      We fashioned a school to teach the latest storytelling, entrepreneurial, and technological skills alongside reporting, writing, and ethics. Beyond that, we’ve crafted a culture that spurns complacency, that isn’t afraid to pivot before the ground under us shifts.
+      “Ethiopian food is mostly long slow-cooked stews on the fire,” owner Hibist Legesse says. “You need a lot of onions for that.” But over the past few months, Legesse has watched onions getting pricier by the day. Though the price of onions have overall decreased from 2024 to 2025 by 27.2%, from June to November of 2025, prices have fluctuated month-to-month, according to the US Bureau of Labor and Statistics Producer Price Index Report.
     </p>
 
     <p>
-      Our mission is to serve the public interest – by training new journalists from varied economic, racial, and cultural backgrounds who will bring much-needed diversity to newsrooms, by helping mid-career journalists retool their skills, and by partnering with other media organizations to find new paths to excellence.
+      It’s not just onions. Nearly every ingredient has gotten more expensive. The average price consumers pay for food purchases was 3.1% higher in 2025 from the previous year, according to the USDA’s Food Price Outlook.
     </p>
 
     <p>
-      Our low tuition rates, along with the added backing of private donors, allow candidates for our master’s degrees in journalism and engagement journalism to receive a world-class education at an affordable price. We also offer a unique bilingual master’s in journalism for students fluent in English and Spanish.
+      Small cafés, bars and restaurants like Bati are struggling to maintain their margins as ingredient costs climb because of tariffs imposed by the Trump administration, rising inflation, and many other factors.
     </p>
 
     <p>
-      Our three media centers provide research, training, thought leadership, industry meet-ups, and financial support for quality journalistic work.
+    “As an ethnic restaurant, you can only charge so much,” Legesse says. “You don’t want to push away your customers like that. So we just keep our prices the same, and we eat the cost most of the time.”    </p>
+
+    <p>
+    According to the National Restaurant Association, wholesale food prices are 37% higher than before the pandemic. Legesse says the price of meat has increased the most. The wholesale price of beef increased by 15.1% while finfish increased by 31.6% since last year, according to the Producer Price Index Report.    </p>
+
+    <p>
+      Hema Agwu, co-owner of Brooklyn Suya, says he has seen a steady rise in protein costs. His restaurants serve suya, a grilled protein seasoned with a signature Nigerian blend of roasted peanuts and dried chiles over a bed of kale or rice topped with fresh vegetables. “Steak is super expensive. Salmon is super expensive,” he says.
     </p>
 
     <p>
-      We also offer a robust professional education program through regular evening and weekend workshops. And we support in-depth reporting projects of professional journalists through fellowship grants.
+      Before the pandemic, Bati’s Legesse says her restaurant had a 6% to 7% profit margin. Today her margins hover at 5% because of ingredient price inflation, increased staffing, and higher insurance costs.
     </p>
 
     <p>
-      Classes are led by accomplished full-time faculty and adjuncts, who tap their networks to help students and graduates find internships, freelance opportunities and — the ultimate prize — jobs.
-    </p>
-
-    <p>
-      At a time when our profession is reeling from financial pressures and lack of trust, the Newmark Graduate School of Journalism is committed to producing the next generation of skilled, ethically minded, and diverse journalists.
-    </p>
-
-    <p>
-      We invite you to be part of our world.
+      The NRA estimates to maintain that slim margin, the average restaurant would have to increase menu prices by more than 30%. Few independent business owners can risk that.
     </p>
   </ArticleBody>
 
