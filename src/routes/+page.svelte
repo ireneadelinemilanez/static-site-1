@@ -7,6 +7,7 @@
   import ArticleBody from '$lib/components/ArticleBody.svelte';
   import ImageWithCaption from '$lib/components/ImageWithCaption.svelte';
   import RelatedLinks from '$lib/components/RelatedLinks.svelte';
+  import InflationCalculator from '$lib/components/InflationCalculator.svelte';
 
   // Article metadata
   let headline = 'Restaurant Costs are Still Sky-High';
@@ -57,7 +58,7 @@
     <p>
       It’s not just onions. Nearly every ingredient has gotten more expensive. The average price consumers pay for food purchases was 3.1% higher in 2025 from the previous year, according to the USDA’s Food Price Outlook.
     </p>
-
+    <InflationCalculator />
     <p>
       Small cafés, bars and restaurants like Bati are struggling to maintain their margins as ingredient costs climb because of tariffs imposed by the Trump administration, rising inflation, and many other factors.
     </p>
